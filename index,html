@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVI SITIO WEB FASE 3</title>
+</head>
+<body>
+    <header>
+        <img src="IMG/logo unad.PNG" style="left: auto;" alt="logotipo de la UNAD">
+        <H1>LENGUAJES HTML Y CSS EN EL DISEÑO DE SITIOS WEB</H1>
+        <link rel="stylesheet" href="CSS/estilos.css">
+    </header>
+    <nav>
+        
+        <ul class="menu">
+            <li><a href="pagina1.html">PRINCIPAL</a></li>
+            <li class="boton"><a href="pagina2.html">ACTIVIDADES</a>
+                <div class="listaDesplegable">
+                    <a href="pagina2.html">Lecturas</a>
+                    <a href="pagina2.html">Actividades Interactivas</a>
+                </div>
+            </li>
+
+            <li class="boton"><a href="pagina3.html">MULTIMEDIA</a>
+                <div class="listaDesplegable">
+                    <a href="pagina3.html">HTML</a>
+                    <a href="pagina3.html">CSS</a>
+                </div>
+            </li>
+
+            <li><a href="pagina4.html">AUTOR</a></li>
+        </ul>
+    </nav>
+
+    <section class="main">
+        <aside>
+            <h3>CONSTRUCCION DE UN OVI</h3>
+            <img src= "IMG/Diseño Web.PNG"alt="imagen ilustrativa de diseño Web">
+        </aside>
+        <section class="contenedor">
+            <section class="central">
+                <article>
+                    <h2>Objetivo del Curso</h2>
+                    <p>Desarrollar sitios web en formato HTML y CSS, para ser visualizados en diferentes navegadores teniendo en cuenta su funcionabilidad y usabilidad, por medio del uso de diferentes editores de código propuestos en el desarrollo del curso.</p>
+                    <img src="IMG/indicacion.PNG" alt="logotipo de visto">
+                </article>
+                
+                <article>
+                    <h2>Objetivo General</h2>
+                    <p></p>
+                    <p>Brindar información a los lectores sobre temáticas del Diseño Web para que puedan utilizar de forma correcta los lenguajes HTML y CSS, aplicadolos en la construcción de estos sitios y su correspondiente implementación.</p>
+                    <img src="IMG/indicacion.PNG" alt="logotipo de visto">
+                </article>
+            </section>
+        </section>
+    </section>
+    <section class="unad"></section>
+    <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @UniversidadUNAD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <footer>
+    <h3>Copyright 2020 © By Gloria Suarez/Abril</h3>
+    <div id="sfcddy7ds9bz3u4llsbjgmrmecbrldsfznj"></div><script type="text/javascript" src="https://counter10.stat.ovh/private/counter.js?c=ddy7ds9bz3u4llsbjgmrmecbrldsfznj&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=ddy7ds9bz3u4llsbjgmrmecbrldsfznj" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
+    </footer>
+</body>
+</html>
