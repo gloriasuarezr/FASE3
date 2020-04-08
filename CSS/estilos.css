@@ -1,0 +1,135 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+body{
+    background-color: rgb(9, 9, 145);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color: black ;
+    padding: 25px;
+}
+
+header{
+    background-color: rgb(207, 146, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-size: 30px;
+        color: rgb(31, 253, 253);
+    }
+    .contenedor{
+        background-color: rgb(9, 9, 145);
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        max-width: 75%;
+    }
+    .central{
+        background-color: wheat;
+        display: inline-block;
+        max-width: 85%;
+        vertical-align: text-top;
+        border-radius: 1em;
+
+    }
+    footer{
+        background-color: rgb(214, 141, 5);
+        text-align: center;
+    }
+
+aside{
+    background-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1em;
+    max-width: 95%;
+
+}
+nav, header, .contenedor, footer{
+    max-width: 95%;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 1em;
+}
+nav{
+    background-color: rgb(9, 9, 145);
+    text-align: center;
+    }
+
+.main{
+    background-color: rgb(9, 9, 145);
+    display: inline-flex;
+    text-align: center;
+    max-width: 85%;
+    justify-content: center;
+} 
+.second{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    display: block;
+    text-align: center;
+    widows: 75%;;
+    height: 85%;
+    border-radius: 1em;
+    max-width: 95%;
+}
+
+.third{
+    display: inline-block;
+    text-align: center;
+    max-width: 85%;
+    justify-content: center;
+}
+.biografia{
+    background-color: rgb(9, 9, 145);
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.unad{
+    display: inline-flexbox;
+
+
+
+}
+
+
+/*......MENU......*/
+
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: rgb(98, 228, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25spx;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: rgb(155, 155, 240);
+    position: absolute;
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: seagreen;
+}
